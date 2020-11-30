@@ -1,0 +1,16 @@
+a:hover {
+  color: #a20a0a;
+}
+
+#footer {
+  color: #a20a0a;
+  text-align: center;
+}
+
+.border {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #363636;
+  border-width: 5px;
+  width: 5%;
+}

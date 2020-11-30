@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODING CLUB INDIA</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        pre {
+            font-size: 17px;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body style="background-color: #eaf6f6;">
+    <header>
+        <h1 style="color: #ec0101; text-align: center;">CODING CLUB INDIA</h1>
+    </header>
+    <br>
+    <hr class="border">
+    <br>
+    <section>
+        <h2>
+            Problem Statement: Write a program in any language to read 10 numbers from
+            keyboard and find their sum and average.
+        </h2>
+        <br>
+        <hr class="border">
+        <br>
+        <h3>Pictorial Presentation:</h3>
+        <img src="img/c-for-loop.png" alt="c-for-loop">
+        <br>
+        <br>
+        <hr class="border">
+        <br>
+        <h3>CODE:</h3>
+        <code>
+            <pre>
+                #include <stdio.h>
+                    void main()
+                    {       
+                        int i,n,sum=0;
+                        float avg;
+                        printf("Input the %d numbers : \n",n);
+                        for (i=1;i<=10;i++)
+                        {
+                            printf("Number-%d :",i);
+                    
+                            scanf("%d",&n);
+                            sum +=n;
+                        }
+                        avg=sum/10.0;
+                        printf("The sum of 10 no is : %d\nThe Average is : %f\n",sum,avg);
+                     
+                    }
+            </pre>
+        </code>
+        <br>
+        <hr class="border">
+        <br>
+        <h3>Variables:</h3>
+        <pre>
+            <var>i</var> - Iterator
+            <var>n</var> - Number
+            <var>sum</var> - Store sum or numbers
+            <var>avg</var> - Store average of numbers
+        </pre>
+        <br>
+        <hr class="border">
+        <br>
+        <h3>Input:</h3>
+        <pre>
+            <samp>
+                Input the 10 numbers :                                                                                        
+                Number-1 :1                                                                                                   
+                Number-2 :2                                                                                                   
+                Number-3 :3                                                                                                   
+                Number-4 :4                                                                                                   
+                Number-5 :5                                                                                                   
+                Number-6 :6                                                                                                   
+                Number-7 :7                                                                                                   
+                Number-8 :8                                                                                                   
+                Number-9 :9                                                                                                   
+                Number-10 :10 
+            </samp>
+        </pre>
+        <hr class="border">
+        <br>
+        <h3>Output:</h3>
+        <pre>
+            <samp>
+                The sum of 10 no is : 55                                                                                      
+                The Average is : 5.500000  
+            </samp>
+        </pre>
+        <hr class="border">
+        <br>
+        <h3>Complexity:</h3>
+        <pre>
+            O(n<sup><small>1</small></sup>)
+        </pre>
+        <br>
+        <hr class="border">
+        <br>
+        <footer>
+            <h4 id="footer">
+                Copyright © 2020 Kiran Raut. All rights reserved.
+              </h4>
+          </footer>
+    </section>
+</body>
+
+</html>

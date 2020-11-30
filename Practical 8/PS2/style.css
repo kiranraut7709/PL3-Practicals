@@ -1,0 +1,16 @@
+body {
+    margin: 20px;
+} 
+
+#footer {
+  color: #a20a0a;
+  text-align: center;
+}
+
+.border {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
