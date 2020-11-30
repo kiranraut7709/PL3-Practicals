@@ -1,0 +1,27 @@
+body {
+  font-size: 18px;
+}
+
+fieldset {
+  /* border-style: none;
+  border-top-style: solid; */
+  border-color: #363636;
+  border-width: 5px;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #363636;
+  border-width: 5px;
+  width: 5%;
+}
+
+#footer {
+  color: #fd3a69;
+  text-align: center;
+}
+
+.btn {
+  float: right;
+}

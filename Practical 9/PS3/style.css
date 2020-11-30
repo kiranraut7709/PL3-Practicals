@@ -1,0 +1,39 @@
+table,
+caption,
+th,
+td {
+  border: 2px solid red;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 5px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  padding: 10px;
+  float: right;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dashed;
+    border-color: #2d6187;
+    border-width: 5px;
+    width: 10%;
+  }
+
+.tittle {
+    color: #790c5a;
+    text-align: center;
+}
+
+#footer {
+  color: #af2d2d;
+  text-align: center;
+}
